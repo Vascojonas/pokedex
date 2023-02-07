@@ -147,21 +147,132 @@
 }
 
 
+.box{
+    height: 300px;
+}
 
-@media screen and (min-width: 380px){
+.imagem{
+    display:block;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: -50px;
+}
+
+.header{
+    padding: 1.3rem;
+}
+
+
+
+.header .name{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+.header .number{
+    color: #fff;
+    display: block;
+    text-align: end;
+}
+
+.list-types{
+    list-style:  none;
+    display: flex;  
+    margin: 0;
+    padding: 0; 
+}
+.list-types .item{
+    color: #fff;
+    padding: 2px 10px;
+    margin: 5px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.navbar{
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 20px 20px 0 0;
+    padding: 1.3rem;
+    padding-bottom: 20px;
+
+}
+
+.navbar .nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.nav-link{
+   padding-bottom: 20px;
+    margin-bottom: 0;
+    color: rgba(123, 118, 118, 0.9);
+    text-decoration: none;
+    
+   
+}   
+
+.active {
+    color :#000;
+    border-bottom: 1px solid rgb(9, 9, 237);
+}
+
+#nav-content{
+    background-color: white;
+    margin-top:  20px;
+    padding: 1.3rem;
+}
+
+.evolution{
+    display: block;
+    height: 6px;
+    border-radius: 3px;
+    background-color: rgba(218, 214, 214, 0.479)
+}
+
+.bb{
+    border: 1px solid red;
+}
+
+.d-none{
+    display: none;
+}
+
+.first-colum{
+    color: rgba(123, 118, 118, 0.9);
+    padding: 5px;
+}
+
+.second-colum{
+    color: rgba(60, 58, 58, 0.9);
+}
+
+.about-title{
+    padding: 15px 0px;
+}
+
+@media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media screen and (min-width: 576px){
-    .pokemons{
+@media screen and (min-width: 576px) {
+    .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media screen and (min-width:992px){
-    .pokemons{
-       grid-template-columns: 1fr 1fr 1fr 1fr;
+@media screen and (min-width: 992px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-} 
+}
+
+
+
